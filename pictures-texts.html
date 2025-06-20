@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>图文作品 - 小周的个人主页</title>
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+ 
+</head>
+
+<body>
+  <nav class="top-nav">
+    <ul class="top-nav-left">
+      <li><a href="index.html">主页</a></li>
+      <li><a href="photos.html">摄影作品</a></li>
+      <li class="top-nav_active"><a href="#">图文作品</a></li>
+      <li><a href="videos.html">视频作品</a></li>
+      <li><a href="contact.html">联系我们</a></li>
+      <li><a href="about.html">关于我</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-weibo"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="#"><i class="fab fa-weixin"></i></a>
+      <a href="#"><i class="fab fa-bilibili"></i></a>
+    </div>
+  </nav>
+  
+  <div class="main-content">
+    <div style="position: relative;">
+      <img src="./assets/images/banner.jpg" class="photography-banner">
+    </div>
+   
+    <div class="tab-switcher">
+      <button class="tab-btn active" data-tab="news">新闻作品</button>
+      <button class="tab-btn" data-tab="gzh">微信公众号推文</button>
+    </div>
+    
+    <div class="articles-container" id="news-container">
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/1.jpg">
+        </div>
+        <div class="article-content">
+          <h2>入伏敷贴</h2>
+          <p>7月15日入伏首日，安徽省针灸医院开展穴位敷贴，这是"三伏"天"冬病夏治"的传统中医疗法，展现中医特色诊疗场景，传递传统医学应用信息。</p>
+          <a href="#" class="read-more" data-article="1">阅读全文</a>
+          <div class="tags">
+            <span class="tag">医疗健康</span>
+            <span class="tag">中医传统疗法</span>
+            <span class="tag">健康养生</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/2.jpg">
+        </div>
+        <div class="article-content">
+          <h2>安徽乡村医生余家军入选2024年"最美医生"</h2>
+          <p>第七个中国医师节（8月19日），中央宣传部、国家卫生健康委公布2024年"最美医生"，安徽六安金寨县麻埠镇齐山村海岛卫生站的余家军当选，他坚守乡村医疗25年，是库区群众的"医靠"，彰显基层医生的坚守与奉献。</p>
+          <a href="#" class="read-more" data-article="2">阅读全文</a>
+          <div class="tags">
+            <span class="tag">医疗人物</span>
+            <span class="tag">乡村医疗</span>
+            <span class="tag">最美医生</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/3.jpg">
+        </div>
+        <div class="article-content">
+          <h2>职业技能大比拼</h2>
+          <p>2024年"新徽菜·名徽厨"合肥市中式烹调师职业技能竞赛在天鹅湖大酒店举行，15支代表队62名选手比拼中式烹调与面点技能，呈现餐饮行业技能竞技氛围，助力技艺交流提升。</p>
+          <a href="#" class="read-more" data-article="3">阅读全文</a>
+          <div class="tags">
+            <span class="tag">职业技能</span>
+            <span class="tag">餐饮行业</span>
+            <span class="tag">技能竞赛</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/4.png">
+        </div>
+        <div class="article-content">
+          <h2>孤岛"医靠"</h2>
+          <p>聚焦余家军，他作为海岛卫生站唯一乡村医生，25年如一日坚守，成为响洪甸水库库区群众的健康依靠，在第七个中国医师节获"最美医生"，体现基层医疗工作者的责任与担当。</p>
+          <a href="#" class="read-more" data-article="4">阅读全文</a>
+          <div class="tags">
+            <span class="tag">医疗故事</span>
+            <span class="tag">基层医疗</span>
+            <span class="tag">乡村医生</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/5.jpg">
+        </div>
+        <div class="article-content">
+          <h2>"热浪"里最美的"城市守护者"</h2>
+          <p>8月8日，燃气检修工余锦和在合肥莲花路检修阀门井，通过排查保障燃气安全，防止次生灾害，展现高温下城市保障人员守护城市运行的辛苦与重要性。</p>
+          <a href="#" class="read-more" data-article="5">阅读全文</a>
+          <div class="tags">
+            <span class="tag">城市保障</span>
+            <span class="tag">高温作业</span>
+            <span class="tag">公共安全</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="articles-container" id="gzh-container" style="display: none;">
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh1.webp">
+        </div>
+        <div class="article-content">
+          <h2>听说，合大举办了一场花灯盛会?
+          </h2>
+          <p>2024年3月30日傍晚
+
+            一年一度的花灯节又和大家见面啦
+            
+            夜幕降临，合大校园里花灯璀璨
+            
+            月光如织，我们一起共赏这番盛宴</p>
+          <a href="https://mp.weixin.qq.com/s/IqBPRXACOfpT6Brvh9nK-g" class="read-more" data-article="gzh1">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh2.jpg">
+        </div>
+        <div class="article-content">
+          <h2>一键收藏合大的浪漫花色</h2>
+          <p>阳光明媚，春韵正浓
+            这一方校园天地
+            被春天精心装点
+            漫步于校园小径
+            阳光穿过繁花与枝叶
+            目光所及，皆是蓬勃生机</p>
+          <a href="https://mp.weixin.qq.com/s/jiyHPPTPHsVZit6FhTM1hg" class="read-more" data-article="gzh2">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh3.webp">
+        </div>
+        <div class="article-content">
+          <h2>绿意盛夏 | 走进合大的夏日绮梦</h2>
+          <p>阳光透过树叶的缝隙
+            洒下斑驳陆离的光影
+            诉说着关于夏天的故事</p>
+          <a href="https://mp.weixin.qq.com/s/-B1qNOeI_Qs2cF2aP4BGHg" class="read-more" data-article="gzh3">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh4.png">
+        </div>
+        <div class="article-content">
+          <h2>体艺风采|羽动青春：探访合肥大学羽毛球俱乐部
+          </h2>
+          <p>合肥大学羽毛球俱乐部目前已有初级会员92名，中级会员76名，高级会员9名。羽毛球俱乐部的创立推动了我校羽毛球运动的发展与竞技水平，弘扬了羽毛球体育竞技精神，为喜爱羽毛球的同学提供了学习和训练的平台。
+
+          </p>
+          <a href="https://mp.weixin.qq.com/s/D0GWoKF2LF6NLW2RR_9ZaQ" class="read-more" data-article="gzh4">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh5.webp">
+        </div>
+        <div class="article-content">
+          <h2>体艺风采 | 舞韵风华：探访合肥大学FD舞蹈俱乐部
+          </h2>
+          <p>合肥大学FD舞蹈俱乐部目前已有初级会员2人，中级会员18人，高级会员12人。FD取自first dance，即首席舞者之意，希望这支队伍里的每个人都是优秀的舞者。</p>
+          <a href="https://mp.weixin.qq.com/s/c6Ee1Q4nQnvjRweqgJE_Iw" class="read-more" data-article="gzh5">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh6.webp">
+        </div>
+        <div class="article-content">
+          <h2>加油，考研人！
+          </h2>
+          <p>一"研"为定,
+
+            不止是目标,
+            
+            更是决心与毅力。
+            
+            </p>
+          <a href="https://mp.weixin.qq.com/s/fIOkd6KG5nuZF-6ih3szbw" class="read-more" data-article="gzh6">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh7.webp">
+        </div>
+        <div class="article-content">
+          <h2>合大今天的微信状态是__          </h2>
+          <p>今天 ，你发微信状态了吗？
+
+            微信状态精彩纷呈
+            运动 听歌 忙 沉迷学习……
+            
+            每一幕都是日常生活的生动记录
+            
+            每一种状态都映射着真实的自己
+            
+            快来一起看看合大学子的微信状态吧！</p>
+          <a href="https://mp.weixin.qq.com/s/nGLyKiOkiCUFob1cyBJ_VQ" class="read-more" data-article="gzh7">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh8.webp">
+        </div>
+        <div class="article-content">
+          <h2>一起来晒年味儿！
+          </h2>
+          <p>灵蛇舞动，爆竹声声
+
+            新岁启航，熠熠生辉
+            
+            年味
+            
+            是镌刻于心的永恒记忆
+            
+            是流淌在血脉中的温情</p>
+          <a href="https://mp.weixin.qq.com/s/LWJoWFx4SCrwyUol2zICzg" class="read-more" data-article="gzh8">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh9.webp">
+        </div>
+        <div class="article-content">
+          <h2>合大春日图鉴：与你共赴一场花事
+          </h2>
+          <p>冬日的寒意逐渐消散
+
+            我们迎来了充满希望的春天
+            
+            在这个季节里
+            
+            大自然换上了翠绿的新装
+            
+            万物复苏
+            
+            展现出一幅幅生机勃勃的画卷
+            
+            </p>
+          <a href="https://mp.weixin.qq.com/s/U211E0Z9j5K2ES0txOmOmQ" class="read-more" data-article="gzh9">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh10.webp">
+        </div>
+        <div class="article-content">
+          <h2>燃脂新食尚，合大减脂餐美味登场
+          </h2>
+          <p>为响应国家"体重管理年"的号召
+
+            合大食堂正式推出健康减脂餐啦！
+            
+            低脂、营养、均衡，一口轻松吃出好状态！
+            
+            从今天起，和油腻say goodbye
+            
+            让健康生活在校园蔓延~</p>
+          <a href="https://mp.weixin.qq.com/s/EZLCXioB_-vygo-pQlZoRg" class="read-more" data-article="gzh10">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-image">
+          <img src="./assets/images/gzh11.webp">
+        </div>
+        <div class="article-content">
+          <h2>食韵校园 味美青春
+          </h2>
+          <p>灶火里煨着垂涎的佳肴
+
+            锅铲翻炒着新潮的创意经典老菜换上青春装扮
+            
+            在餐盘里绽放惊喜
+            
+            天南地北风味大联欢
+            
+            舌尖奏响美味狂想曲
+            
+            校园限定美味
+            
+            吃出青春的仪式感！</p>
+          <a href="https://mp.weixin.qq.com/s/QqHkWTTY5SxFy6d9ZUJ2fQ" class="read-more" data-article="gzh11">阅读全文</a>
+          <div class="tags">
+            <span class="tag">公众号</span>
+            <span class="tag">推文</span>
+            <span class="tag">新媒体</span>
+          </div>
+        </div>
+      </div>
+    </div>
+      <section class="profile-header">
+        <h2>我的创作理念</h2>
+        <p>我相信文字和影像是相辅相成的表达方式。好的图文作品应该像一首视觉诗歌，既有影像的直观冲击，又有文字的深度思考。我的创作关注人文、社会和日常生活，希望通过我的作品，让读者看到平凡中的不平凡。</p>
+        <p>在内容创作上，我注重前期调研和实地采访，确保内容的真实性和深度。在表现形式上，我追求图文的高度融合，让每一张图片都能为文字增添情感，每一段文字都能为图片提供背景。</p>
+      </section>
+   
+  </div>
+  
+  <div class="modal" id="articleModal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <iframe class="modal-iframe" id="articleIframe" frameborder="0"></iframe>
+    </div>
+  </div>
+  
+  <div class="confirm-modal" id="confirmModal">
+    <div class="confirm-content">
+      <h3>即将跳转到微信公众号</h3>
+      <p>您即将离开本站，前往微信公众号阅读完整文章。</p>
+      <div class="confirm-buttons">
+        <button class="confirm-btn secondary" id="cancelConfirm">取消</button>
+        <button class="confirm-btn primary" id="confirmGo">确认前往</button>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div id="copyright">
+    <ul><li>&copy; </li><li>Design: WEN JIA JIA</a></li></ul>
+  </div>
+
+  <script>
+    const articleUrls = {
+      1: "https://www.ahnews.com.cn/huandengqu/pc/con/2024-07/16/573_1185168.html",
+      2: "https://www.ahnews.com.cn/anhui/pc/con/2024-08/19/562_1215540.html",
+      3: "https://www.ahnews.com.cn/huandengqu/pc/con/2024-08/15/573_1212166.html",
+      4: "https://www.ahnews.com.cn/toutiao1/pc/con/2024-08/22/570_1218684.html",
+      5: "https://www.ahnews.com.cn/huandengqu/pc/con/2024-08/14/573_1211138.html",
+      gzh1: "https://mp.weixin.qq.com/s/IqBPRXACOfpT6Brvh9nK-g",
+      gzh2: "https://mp.weixin.qq.com/s/jiyHPPTPHsVZit6FhTM1hg",
+      gzh3: "https://mp.weixin.qq.com/s/-B1qNOeI_Qs2cF2aP4BGHg",
+      gzh4: "https://mp.weixin.qq.com/s/D0GWoKF2LF6NLW2RR_9ZaQ",
+      gzh5: "https://mp.weixin.qq.com/s/c6Ee1Q4nQnvjRweqgJE_Iw",
+      gzh6: "https://mp.weixin.qq.com/s/fIOkd6KG5nuZF-6ih3szbw",
+      gzh7: "https://mp.weixin.qq.com/s/nGLyKiOkiCUFob1cyBJ_VQ",
+      gzh8: "https://mp.weixin.qq.com/s/LWJoWFx4SCrwyUol2zICzg",
+      gzh9: "https://mp.weixin.qq.com/s/U211E0Z9j5K2ES0txOmOmQ",
+      gzh10: "https://mp.weixin.qq.com/s/EZLCXioB_-vygo-pQlZoRg",
+      gzh11: "https://mp.weixin.qq.com/s/QqHkWTTY5SxFy6d9ZUJ2fQ"
+    };
+    
+    const modal = document.getElementById("articleModal");
+    const iframe = document.getElementById("articleIframe");
+    const closeBtn = document.getElementById("closeModal");
+    const readMoreLinks = document.querySelectorAll(".read-more");
+    const tabBtns = document.querySelectorAll(".tab-btn");
+    const newsContainer = document.getElementById("news-container");
+    const gzhContainer = document.getElementById("gzh-container");
+    const confirmModal = document.getElementById("confirmModal");
+    const cancelConfirm = document.getElementById("cancelConfirm");
+    const confirmGo = document.getElementById("confirmGo");
+    
+    let currentGzhUrl = "";
+    
+    readMoreLinks.forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const articleId = this.getAttribute("data-article");
+        
+        if(articleId.startsWith("gzh")) {
+          currentGzhUrl = articleUrls[articleId];
+          confirmModal.style.display = "flex";
+          document.body.style.overflow = "hidden";
+        } else {
+          iframe.src = articleUrls[articleId];
+          modal.style.display = "flex";
+          document.body.style.overflow = "hidden";
+        }
+      });
+    });
+    
+    closeBtn.addEventListener("click", function() {
+      modal.style.display = "none";
+      iframe.src = "";
+      document.body.style.overflow = "auto";
+    });
+    
+    modal.addEventListener("click", function(e) {
+      if (e.target === modal) {
+        modal.style.display = "none";
+        iframe.src = "";
+        document.body.style.overflow = "auto";
+      }
+    });
+    
+    confirmGo.addEventListener("click", function() {
+      window.open(currentGzhUrl, '_blank');
+      confirmModal.style.display = "none";
+      document.body.style.overflow = "auto";
+    });
+    
+    cancelConfirm.addEventListener("click", function() {
+      confirmModal.style.display = "none";
+      document.body.style.overflow = "auto";
+    });
+    
+    confirmModal.addEventListener("click", function(e) {
+      if (e.target === confirmModal) {
+        confirmModal.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+    });
+    
+    document.addEventListener("keydown", function(e) {
+      if (e.key === "Escape") {
+        if (modal.style.display === "flex") {
+          modal.style.display = "none";
+          iframe.src = "";
+          document.body.style.overflow = "auto";
+        }
+        if (confirmModal.style.display === "flex") {
+          confirmModal.style.display = "none";
+          document.body.style.overflow = "auto";
+        }
+      }
+    });
+    
+    tabBtns.forEach(btn => {
+      btn.addEventListener("click", function() {
+        tabBtns.forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+        
+        const tab = this.getAttribute("data-tab");
+        if (tab === "news") {
+          newsContainer.style.display = "grid";
+          gzhContainer.style.display = "none";
+        } else {
+          newsContainer.style.display = "none";
+          gzhContainer.style.display = "grid";
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
